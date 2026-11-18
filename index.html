@@ -1,7 +1,95 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Ulaa Theeraa Kanaa — an illustrated collection of travel adventures and detailed itineraries."><title>Ulaa Theeraa Kanaa · Travel Journal</title><style>
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700;800&family=Playfair+Display:wght@600;700&display=swap');
-:root{--ink:#eaf7ed;--muted:#b7d0c3;--deep:#092b27;--green:#123f35;--gold:#f1c879}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#edf2e9;color:#173b31;font-family:'DM Sans',system-ui,sans-serif}a{color:inherit;text-decoration:none}button{font:inherit}h1,h2,h3{font-family:'Playfair Display',Georgia,serif}header{position:relative;overflow:hidden;color:var(--ink);background:linear-gradient(180deg,#659b92 0%,#a7c7ad 55%,#e4e9d6 100%);min-height:65vh;padding:24px max(5vw,20px) 100px}.nav{position:relative;z-index:8;max-width:1120px;margin:auto;display:flex;align-items:center;justify-content:space-between;gap:15px}.brand{font-size:.82rem;letter-spacing:.15em;font-weight:800}.navlink{border:1px solid #ffffff88;padding:10px 17px;border-radius:99px;font-size:.8rem;background:#ffffff18;backdrop-filter:blur(8px)}.hero{position:relative;z-index:5;max-width:1120px;margin:90px auto 0}.eyebrow{font-size:.72rem;letter-spacing:.25em;text-transform:uppercase;font-weight:800;color:var(--gold)}h1{font-size:clamp(3.6rem,9vw,8rem);line-height:.95;letter-spacing:-.04em;margin:18px 0 25px;text-shadow:0 6px 35px #0a302c3b}h1 em{color:#fff0bd}.subtitle{font-size:1.1rem;line-height:1.7;max-width:650px;color:#f1f9ef}.mountain{position:absolute;bottom:-1px;left:-5%;width:110%;height:38%;clip-path:polygon(0 80%,14% 35%,26% 70%,39% 24%,52% 65%,66% 34%,78% 65%,90% 20%,100% 65%,100% 100%,0 100%);background:#245e4d;opacity:.78}.mountain.back{bottom:8%;height:45%;background:#4c8872;opacity:.45;transform:scaleX(-1)}.cloud{position:absolute;top:24%;left:-300px;width:260px;height:70px;background:#ffffff66;filter:blur(15px);border-radius:100px;animation:float 25s linear infinite}.cloud.two{top:40%;animation-delay:-13s;opacity:.5}@keyframes float{to{transform:translateX(calc(100vw + 650px))}}main{max-width:1120px;margin:auto;padding:70px 20px 110px}.section-label{letter-spacing:.22em;color:#4e7c63;font-size:.73rem;font-weight:800;text-transform:uppercase}.section-title{font-size:clamp(2.2rem,5vw,4rem);margin:10px 0 30px}.footer{text-align:center;padding:35px;color:#698273;font-size:.8rem}.reveal{opacity:0;transform:translateY(26px);transition:opacity .7s,transform .7s}.reveal.show{opacity:1;transform:none}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ulaa Theeraa Kanaa | Explorer's Atlas — Preview</title>
+<meta name="description" content="A travel journal of extraordinary journeys. Explorer's Atlas design preview.">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght,SOFT,WONK@9..144,500,0,1;9..144,700,0,1&display=swap');
+:root{--paper:#f3e9d3;--paper2:#fbf4e5;--ink:#27382e;--forest:#254c3c;--rust:#ac613e;--gold:#c59651;--line:#d6c5a5;--muted:#746e5f}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);background:var(--paper);font-family:'DM Sans',sans-serif;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.2;z-index:20;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 160 160' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.7' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.2'/%3E%3C/svg%3E")}
+a{color:inherit;text-decoration:none}button{font:inherit;cursor:pointer}h1,h2,h3{font-family:Fraunces,Georgia,serif}
+.topbar{position:absolute;top:0;left:0;width:100%;z-index:5;display:flex;align-items:center;justify-content:space-between;padding:27px clamp(20px,5vw,75px);gap:20px}
+.brand{font-size:.85rem;font-weight:700;letter-spacing:.15em;line-height:1.4}.brand small{display:block;letter-spacing:.25em;font-size:.54rem;color:#6f7a68}
+.topnav{display:flex;align-items:center;gap:25px;font-size:.78rem;font-weight:700;letter-spacing:.06em}.topnav a:hover{color:var(--rust)}.topnav .outlined{border:1px solid var(--ink);padding:10px 17px;border-radius:30px}
+.hero{min-height:790px;height:96svh;position:relative;display:flex;align-items:center;overflow:hidden;background:radial-gradient(circle at 72% 38%,#f7e9c7 0%,#f3e9d3 48%,#e7d8ba 100%)}
+.hero:before{content:"";position:absolute;inset:0;background-image:linear-gradient(#6c8b7240 1px,transparent 1px),linear-gradient(90deg,#6c8b7240 1px,transparent 1px);background-size:78px 78px;opacity:.19;mask-image:linear-gradient(90deg,transparent 25%,black)}
+.hero-content{position:relative;z-index:3;margin-left:clamp(24px,8vw,140px);max-width:670px;padding-top:50px}
+.kicker{font-size:.73rem;font-weight:700;letter-spacing:.27em;text-transform:uppercase;color:var(--rust)}
+.hero h1{font-size:clamp(4.1rem,8.7vw,9rem);line-height:.95;letter-spacing:-.065em;margin:23px 0 25px;font-weight:500}
+.hero h1 em{font-weight:500;color:var(--rust);font-style:italic}
+.hero p{font-size:1.04rem;line-height:1.85;color:#646a5a;max-width:490px}
+.cta{display:inline-flex;align-items:center;gap:17px;background:var(--forest);color:#fff;border-radius:40px;padding:15px 23px;font-size:.82rem;font-weight:700;margin-top:20px;box-shadow:0 14px 26px #234c3c30;transition:.3s}.cta:hover{transform:translateY(-4px);background:#153629}.cta span{font-size:1.2rem}
+.atlas{position:absolute;right:-16%;top:4%;width:min(76vw,1000px);height:min(76vw,1000px);border-radius:50%;opacity:.85;transform:rotate(-15deg);animation:floatAtlas 9s ease-in-out infinite;filter:drop-shadow(0 25px 40px #5a62422b)}
+.atlas svg{width:100%;height:100%}
+@keyframes floatAtlas{50%{transform:translateY(-17px) rotate(-12deg)}}
+.seal{position:absolute;right:8%;bottom:11%;z-index:3;width:142px;height:142px;border-radius:50%;border:2px dashed #a96846;background:#e8d7b5c9;display:grid;place-content:center;text-align:center;transform:rotate(13deg);color:#925236;font-size:.66rem;letter-spacing:.16em;line-height:1.7;font-weight:700}
+.seal b{font-family:Fraunces,serif;font-size:2rem;letter-spacing:0}
+.hero-foot{position:absolute;bottom:30px;left:clamp(24px,8vw,140px);z-index:4;display:flex;align-items:center;gap:16px;font-size:.69rem;letter-spacing:.18em;color:#777866}
+.hero-foot .line{width:60px;height:1px;background:#9a9a82}
+.section{max-width:1220px;margin:auto;padding:95px 28px}
+.section-top{display:flex;align-items:end;justify-content:space-between;gap:30px;margin-bottom:35px}
+.section-top h2{font-size:clamp(2.5rem,5.4vw,5rem);font-weight:500;letter-spacing:-.045em;margin:12px 0 0;line-height:1.05}
+.section-top p{max-width:310px;color:var(--muted);font-size:.9rem;line-height:1.8}
+.rule{height:1px;background:var(--line);margin:0 0 38px}
+.cards{display:grid;grid-template-columns:1.5fr 1fr;gap:25px}
+.trip{position:relative;overflow:hidden;border-radius:8px;background:var(--paper2);border:1px solid #d6c8ad;min-height:490px;box-shadow:0 16px 34px #66583d12;transition:transform .4s,box-shadow .4s}
+.trip:hover{transform:translateY(-7px);box-shadow:0 24px 40px #66583d25}
+.trip-art{height:325px;position:relative;overflow:hidden;background:linear-gradient(180deg,#93b6a8,#c5d2b7 48%,#668c77 100%)}
+.trip-art:before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at 45% 15%,#ffffffb0,transparent 55%)}
+.hill{position:absolute;bottom:-2px;width:115%;left:-5%;height:80%;clip-path:polygon(0 90%,11% 64%,22% 80%,34% 31%,46% 70%,57% 40%,70% 73%,82% 25%,94% 65%,100% 57%,100% 100%,0 100%);background:#376c57}
+.hill.back{height:75%;bottom:20px;transform:scaleX(-1);background:#6d9782;opacity:.65}
+.trip-art .fog{position:absolute;left:-10%;bottom:5%;width:120%;height:90px;border-radius:50%;background:#ffffff70;filter:blur(25px);animation:fog 9s ease-in-out infinite alternate}
+@keyframes fog{to{transform:translateX(35px);opacity:.4}}
+.postmark{position:absolute;right:22px;top:20px;border:2px solid #fff8;border-radius:50%;height:90px;width:90px;display:grid;place-content:center;text-align:center;color:#fff;font-size:.64rem;font-weight:700;letter-spacing:.12em;transform:rotate(15deg);line-height:1.5}
+.trip-copy{padding:23px 28px 27px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.trip-copy small{font-size:.7rem;letter-spacing:.18em;color:var(--rust);font-weight:700}.trip-copy h3{font-size:2.4rem;letter-spacing:-.04em;font-weight:500;margin:4px 0}.trip-copy p{font-size:.8rem;color:var(--muted);margin:0}
+.arrow{height:45px;width:45px;border:1px solid var(--forest);border-radius:50%;display:grid;place-items:center;font-size:1.5rem;transition:.3s}.trip:hover .arrow{background:var(--forest);color:white;transform:rotate(-35deg)}
+.next{display:flex;flex-direction:column;justify-content:space-between;padding:32px;background:#e8dec7;position:relative}
+.next:before{content:"";position:absolute;inset:20px;border:1px dashed #b7a989;pointer-events:none}
+.next .compass{font-size:5rem;text-align:center;color:#8d9c80;margin:55px 0 15px;animation:compass 12s ease-in-out infinite}@keyframes compass{50%{transform:rotate(30deg)}}
+.next h3{font-size:2.5rem;font-weight:500;letter-spacing:-.04em;margin:5px 0}.next p{font-size:.9rem;color:#746e5f;line-height:1.7}.next .foot{font-size:.7rem;letter-spacing:.14em;color:#a26747;font-weight:700}
+.about{background:var(--forest);color:#f8f0db;position:relative;overflow:hidden}
+.about-inner{max-width:1150px;margin:auto;padding:85px 30px;display:flex;justify-content:space-between;gap:50px;align-items:center}
+.about h2{font-size:clamp(2.5rem,5vw,4.5rem);font-weight:500;line-height:1.1;max-width:630px;margin:12px 0}
+.about p{max-width:360px;color:#c9d5c6;line-height:1.8}
+.about .kicker{color:#e9bc78}
+.footer{padding:30px;text-align:center;font-size:.75rem;color:#786e5e}
+.reveal{opacity:0;transform:translateY(25px);transition:.75s ease}.reveal.show{opacity:1;transform:none}
+@media(max-width:1000px){.atlas{right:-38%;width:100vw;height:100vw;top:15%;opacity:.42}.hero-content{max-width:650px}.hero h1{font-size:clamp(4rem,10vw,7rem)}}
+@media(max-width:650px){.hero{height:auto;min-height:740px}.topbar{padding:20px}.topnav a:not(.outlined){display:none}.brand{font-size:.72rem}.hero-content{margin:0 24px;padding-top:120px}.hero h1{font-size:clamp(3.8rem,15vw,6rem)}.atlas{top:37%;right:-65%;width:140vw;height:140vw;opacity:.23}.seal{width:105px;height:105px;right:6%;bottom:12%}.hero-foot{left:24px}.section{padding:70px 20px}.section-top{display:block}.cards{grid-template-columns:1fr}.trip{min-height:0}.trip-art{height:260px}.trip-copy{padding:20px}.next{min-height:340px}.about-inner{display:block}.about p{margin-top:30px}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}}
 </style>
-<script>document.addEventListener('DOMContentLoaded',()=>{const o=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('show');o.unobserve(e.target)}}),{threshold:.08});document.querySelectorAll('.reveal').forEach(x=>o.observe(x))})</script><style>.tripgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:25px}.tripcard{display:block;border-radius:28px;overflow:hidden;background:#fff;box-shadow:0 20px 45px #153f3420;transition:transform .35s,box-shadow .35s}.tripcard:hover{transform:translateY(-9px);box-shadow:0 30px 55px #153f3436}.art{height:270px;position:relative;overflow:hidden;background:linear-gradient(180deg,#94c7c3,#cee3c5 62%,#235e4a)}.art:before,.art:after{content:"";position:absolute;bottom:-5%;width:110%;height:65%;clip-path:polygon(0 85%,20% 30%,34% 70%,50% 10%,69% 70%,85% 27%,100% 65%,100% 100%,0 100%)}.art:before{background:#548f77;transform:translateY(-20px)}.art:after{background:#1d5344}.art .sun{position:absolute;top:15%;right:20%;width:65px;height:65px;border-radius:50%;background:#f8d489;box-shadow:0 0 55px #fff0bd}.art .tag{position:absolute;top:20px;left:20px;z-index:3;border:1px solid #ffffff70;border-radius:99px;background:#0c403a80;backdrop-filter:blur(8px);padding:8px 13px;color:white;font-size:.72rem;font-weight:700}.cardbody{padding:24px}.cardbody h3{font-size:2rem;margin:0 0 8px}.cardbody p{color:#658173;margin:0 0 20px}.open{font-weight:800;color:#17664e;font-size:.85rem}.coming{display:grid;place-items:center;min-height:380px;border:2px dashed #a4bcae;border-radius:28px;text-align:center;padding:25px;color:#729080}.coming b{font-family:'Playfair Display',serif;font-size:1.7rem;color:#355d49}</style></head><body><header><nav class="nav"><a class="brand" href="./">ULAA THEERAA KANAA</a><a class="navlink" href="#trips">Explore trips ↗</a></nav><div class="cloud"></div><div class="cloud two"></div><div class="hero"><div class="eyebrow">Our travel journal</div><h1>Collect moments,<br><em>not miles.</em></h1><p class="subtitle">A growing collection of journeys — misty mountain roads, wild waterfalls, unforgettable treks, and the stories in between.</p></div><div class="mountain back"></div><div class="mountain"></div></header><main id="trips"><div class="section-label">The collection</div><h2 class="section-title">Choose your next journey</h2><div class="tripgrid"><a class="tripcard reveal" href="trips/meghalaya/"><div class="art"><div class="sun"></div><span class="tag">21–28 NOV · 2026</span></div><div class="cardbody"><h3>Meghalaya</h3><p>Clouds, caves & living roots · 8 days</p><span class="open">Explore itinerary ↗</span></div></a><div class="coming reveal"><div><div style="font-size:3rem">✦</div><b>More adventures ahead</b><p>New trip pages will appear here.</p></div></div></div></main><div class="footer">Made for the journey · Ulaa Theeraa Kanaa</div></body></html>
+</head>
+<body>
+<header class="topbar"><a class="brand" href="#">ULAA THEERAA KANAA<small>THE TRAVEL ATLAS</small></a><nav class="topnav"><a href="#journeys">JOURNEYS</a><a href="#story">OUR STORY</a><a class="outlined" href="#journeys">EXPLORE ↗</a></nav></header>
+<section class="hero">
+<div class="atlas" aria-hidden="true">
+<svg viewBox="0 0 900 900" xmlns="http://www.w3.org/2000/svg">
+<defs><radialGradient id="gl"><stop stop-color="#f6eacb"/><stop offset="1" stop-color="#ddcba6"/></radialGradient><clipPath id="c"><circle cx="450" cy="450" r="370"/></clipPath></defs>
+<circle cx="450" cy="450" r="425" fill="none" stroke="#b6a47e" stroke-width="2"/><circle cx="450" cy="450" r="395" fill="none" stroke="#b6a47e" stroke-width="1" stroke-dasharray="4 10"/><circle cx="450" cy="450" r="370" fill="url(#gl)" stroke="#ac9974" stroke-width="3"/>
+<g clip-path="url(#c)" fill="none" stroke="#b7a780" stroke-width="1.5" opacity=".7"><ellipse cx="450" cy="450" rx="190" ry="370"/><ellipse cx="450" cy="450" rx="300" ry="370"/><path d="M80 450H820M100 320H800M100 580H800M155 200H745M155 700H745"/></g>
+<g clip-path="url(#c)" fill="#73907a" opacity=".68"><path d="M205 175l70-27 65 36 22 60-46 34-5 69-67 22-49-39-53-9-18-64 41-41z"/><path d="M310 363l59 11 40 65-30 80-13 100-39 70-48-20-11-89-41-72 19-70z"/><path d="M440 195l110-55 112 42 67 57-25 74-77 15-32 67-92-17-33-56-64-25z"/><path d="M480 400l112-5 75 74-22 103-72 104-66-31-47-97z"/><path d="M692 575l94 5 45 75-43 58-90-14-37-69z"/></g>
+<g fill="none" stroke="#a65e40" stroke-width="4" stroke-linecap="round" stroke-dasharray="3 13"><path d="M285 335Q430 110 595 340Q695 465 560 565"/></g>
+<g fill="#a65e40" stroke="#f6e9cb" stroke-width="6"><circle cx="285" cy="335" r="12"/><circle cx="595" cy="340" r="12"/><circle cx="560" cy="565" r="12"/></g>
+<g fill="#8e7751" font-family="Georgia" text-anchor="middle"><text x="450" y="52" font-size="23" letter-spacing="7">THE WORLD AWAITS</text><text x="450" y="865" font-size="22" letter-spacing="5">EST. IN WANDERLUST</text></g>
+<path d="M450 67l11 25-11 25-11-25zM450 782l11 25-11 25-11-25zM67 450l25-11 25 11-25 11zM782 450l25-11 25 11-25 11z" fill="#ac613e"/>
+</svg></div>
+<div class="hero-content"><div class="kicker">An atlas of extraordinary days</div><h1>Go where<br>the <em>story</em><br>takes you.</h1><p>From hidden waterfalls to winding mountain trails — a personal collection of journeys, field notes, and the beautiful places in between.</p><a class="cta" href="#journeys">Open the travel atlas <span>↗</span></a></div>
+<div class="seal">THE WORLD<br><b>✦</b>IS OUR MAP</div>
+<div class="hero-foot"><span class="line"></span> SCROLL TO EXPLORE</div>
+</section>
+<section class="section" id="journeys"><div class="section-top reveal"><div><div class="kicker">01 / The journeys</div><h2>Postcards from<br>the road.</h2></div><p>Every destination deserves its own story. Pick a place and open its illustrated itinerary.</p></div><div class="rule"></div>
+<div class="cards"><a class="trip reveal" href="trips/meghalaya/" title="Open Meghalaya itinerary (when hosted in travel-journal)">
+<div class="trip-art"><div class="hill back"></div><div class="hill"></div><div class="fog"></div><div class="postmark">NOV 2026<br>MEGHALAYA<br>✦</div></div>
+<div class="trip-copy"><div><small>INDIA · 8 DAYS · 2026</small><h3>Meghalaya</h3><p>Clouds, caves & living roots</p></div><div class="arrow">↗</div></div></a>
+<div class="next reveal"><div class="kicker">The next chapter</div><div class="compass">✧</div><div><h3>Where to next?</h3><p>More adventures, more stamps, more stories. Your future trips will find a home here.</p><div class="foot">SPACE RESERVED FOR THE UNEXPECTED ↗</div></div></div></div>
+</section>
+<section class="about" id="story"><div class="about-inner"><div class="reveal"><div class="kicker">02 / Our philosophy</div><h2>Not every journey needs a destination. Some just need curiosity.</h2></div><p class="reveal">Ulaa Theeraa Kanaa is a home for the places we explore and the memories we collect — one thoughtful itinerary at a time.</p></div></section>
+<footer class="footer">© 2026 ULAA THEERAA KANAA · MADE FOR THE JOURNEY · EXPLORER'S ATLAS DESIGN PREVIEW</footer>
+<script>
+const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('show');observer.unobserve(e.target)}}),{threshold:.12});
+document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+</script>
+</body></html>
